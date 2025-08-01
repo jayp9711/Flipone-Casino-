@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flip Coins</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #111, #222);
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      padding: 20px;
+      font-size: 2em;
+      font-weight: bold;
+    }
+    .balance {
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+    .button {
+      background: gold;
+      color: black;
+      padding: 12px 24px;
+      font-size: 1em;
+      border: none;
+      border-radius: 10px;
+      margin: 10px;
+      cursor: pointer;
+    }
+    footer {
+      font-size: 0.8em;
+      color: #888;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>🎰 Flip Coins</header>
+  <div class="balance">Balance: $3,340.00</div>
+  <button class="button" onclick="redeem()">💵 Redeem</button>
+  <button class="button" onclick="spin()">🎲 Flip</button>
+
+  <script>
+    function redeem() {
+      alert("Cashout system is temporarily disabled. Please try again later.");
+    }
+    function spin() {
+      alert("You flipped and won $250!");
+    }
+  </script>
+
+  <footer>
+    This is a simulated game. No real money is won or lost. Flip Coins is for entertainment only.
+  </footer>
+</body>
+</html>
